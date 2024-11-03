@@ -1,7 +1,9 @@
 import React from 'react'
 import profileImg from "../assets/profileImage.jpeg"
 import { ABOUT_TEXT } from '../constants'
-import {motion} from "framer-motion";
+import {animate, motion, transform} from "framer-motion";
+
+
 
 function About() {
   return (
